@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText edt=new EditText(MainActivity.this);
                 DraggableView layout1=new DraggableView(MainActivity.this);
                 edt.setTextColor(color);
+                edt.setText("New Text");
                 layout1.addView(edt);
                 Layout.addView(layout1);
                 arrText.add(edt);
